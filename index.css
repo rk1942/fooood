@@ -1,0 +1,230 @@
+.second {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ff5733;
+    width: 1512px;
+    height: 300px;
+  }
+  .third {
+    position: absolute;
+    top: 217px;
+    left: 434px;
+    background-color: #00a6a6;
+    width: 627px;
+    height: 57px;
+  }
+  .sticker,
+  .sticker1,
+  .sticker2 {
+    position: absolute;
+    top: 22px;
+    left: 1322px;
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+  }
+  .sticker1,
+  .sticker2 {
+    top: 178px;
+    left: 1210px;
+    width: 112px;
+    height: 114px;
+  }
+  .sticker2 {
+    top: 40px;
+    left: 1163px;
+    width: 93px;
+    height: 93px;
+  }
+  .sticker3,
+  .sticker4,
+  .sticker5 {
+    position: absolute;
+    top: 22px;
+    left: 38px;
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+  }
+  .sticker4,
+  .sticker5 {
+    top: 178px;
+    left: 196px;
+    width: 94px;
+    height: 96px;
+  }
+  .sticker5 {
+    top: 33px;
+    left: 230px;
+    width: 91px;
+    height: 100px;
+  }
+  .name {
+    position: absolute;
+    top: 39px;
+    left: 522px;
+    font-size: var(--font-size-17xl);
+    display: inline-block;
+    width: 467px;
+    height: 47px;
+  }
+  .slogan,
+  .bar,
+  .brief {
+    position: absolute;
+    top: 118px;
+    left: 348px;
+    font-size: var(--font-size-5xl);
+  }
+  .slogan,
+  .bar {
+    top: 164px;
+    left: 624px;
+  }
+  .bar {
+    top: 231px;
+    left: 633px;
+    color: #3c4142;
+  }
+  .fourth {
+    position: absolute;
+    top: 300px;
+    left: 0;
+    background-color: #f5f5f5;
+    width: 1512px;
+    height: 367px;
+  }
+  #image1,
+  .random-meal {
+    position: absolute;
+    left: 624px;
+    width: 240px;
+  }
+  .random-meal {
+    top: 338px;
+    font-size: var(--font-size-17xl);
+    display: inline-block;
+    height: 47px;
+  }
+  #image1 {
+    top: 402px;
+    height: 180px;
+    object-fit: cover;
+  }
+  .name-of-meal,
+  .rectangle-div {
+    position: absolute;
+    top: 599px;
+    left: 639px;
+  }
+  .rectangle-div {
+    top: 666px;
+    left: -7px;
+    background-color: #87ceeb;
+    width: 1510px;
+    height: 315px;
+  }
+  .category,
+  #image2{
+    position: absolute;
+    width: 240px;
+  }
+  .category {
+    top: 670px;
+    left: 659px;
+    font-size: var(--font-size-17xl);
+    display: inline-block;
+    height: 47px;
+  }
+  #image2 {
+    top: 734px;
+    left: 63px;
+    height: 180px;
+    object-fit: cover;
+  }
+  #image3,
+  .name-of-meal1 {
+    position: absolute;
+    top: 925px;
+    left: 80px;
+  }
+  #image3 {
+    top: 734px;
+    left: 444px;
+    width: 240px;
+    height: 180px;
+    object-fit: cover;
+  }
+  #image4,
+  .name-of-meal2 {
+    position: absolute;
+    top: 925px;
+    left: 459px;
+  }
+  #image4 {
+    top: 734px;
+    left: 825px;
+    width: 236px;
+    height: 180px;
+    object-fit: cover;
+  }
+  #image5,
+  .name-of-meal3 {
+    position: absolute;
+    top: 925px;
+    left: 838px;
+  }
+  #image5 {
+    top: 731px;
+    left: 1202px;
+    width: 240px;
+    height: 180px;
+    object-fit: cover;
+  }
+  .name-of-meal4 {
+    position: absolute;
+    top: 925px;
+    left: 1217px;
+  }
+  .main  {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 982px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+
+  button {
+    background-color: #00a6a6;
+  }
+
+  #typeinput {
+    background-color: #00a6a6;
+    border: black;
+  }
+  #typeinput::placeholder {
+    color: black;
+}
+
+
+
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    --font-inter: Inter;
+
+    --font-size-13xl: 18px;
+    --font-size-17xl: 36px;
+    --font-size-5xl: 24px;
+
+    --color-black: #000;
+  }
+  
